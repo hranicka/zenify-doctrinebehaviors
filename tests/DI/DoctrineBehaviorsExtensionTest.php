@@ -8,6 +8,7 @@ use Knp\DoctrineBehaviors\ORM\Geocodable\GeocodableSubscriber;
 use Knp\DoctrineBehaviors\ORM\Loggable\LoggableSubscriber;
 use Knp\DoctrineBehaviors\ORM\Sluggable\SluggableSubscriber;
 use Knp\DoctrineBehaviors\ORM\SoftDeletable\SoftDeletableSubscriber;
+use Knp\DoctrineBehaviors\ORM\Sortable\SortableSubscriber;
 use Knp\DoctrineBehaviors\ORM\Timestampable\TimestampableSubscriber;
 use Knp\DoctrineBehaviors\ORM\Translatable\TranslatableSubscriber;
 use Knp\DoctrineBehaviors\ORM\Tree\TreeSubscriber;
@@ -24,7 +25,7 @@ class DoctrineBehaviorsExtensionTest extends PHPUnit_Framework_TestCase
 	/**
 	 * @var int
 	 */
-	const LISTENER_COUNT = 20;
+	const LISTENER_COUNT = 21;
 
 	/**
 	 * @var Container
@@ -43,6 +44,7 @@ class DoctrineBehaviorsExtensionTest extends PHPUnit_Framework_TestCase
 		TimestampableSubscriber::class,
 		TranslatableSubscriber::class,
 		TreeSubscriber::class,
+		SortableSubscriber::class,
 	];
 
 

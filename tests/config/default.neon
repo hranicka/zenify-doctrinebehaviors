@@ -16,6 +16,7 @@ extensions:
 	- Zenify\DoctrineBehaviors\DI\TimestampableExtension
 	- Zenify\DoctrineBehaviors\DI\TranslatableExtension
 	- Zenify\DoctrineBehaviors\DI\TreeExtension
+	- Zenify\DoctrineBehaviors\DI\SortableExtension
 
 
 doctrine:
